@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Skráningarform</h1>
+
+    <form action="/thankyou.html" method="get">
+      <label for="name"> Fullt nafn: </label> <br />
+      <input type="text" id="name" name="name" /> <br /><br />
+
+      <label for="email"> Netfang: </label> <br />
+      <input type="email" required /> <br /><br />
+
+      <label for="password"> Lykilorð: </label> <br />
+      <input type="password" required /> <br />
+      <br />
+
+      <label for="password"> Staðfesting Lykilorðs </label> <br />
+      <input type="password" required /> <br />
+      <br />
+
+      <label for="age"> Aldur </label> <br />
+      <input min="1" max="100" type="age" /> <br />
+      <br />
+
+      <label for="checkbox"> Samþykkir þú skilmála?</label>
+      <input type="checkbox" required /> <br /><br />
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
